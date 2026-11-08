@@ -237,7 +237,7 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/yamada-kd/introduction-to-artificial-intelligence/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/caramelazuki/introduction-to-artificial-intelligence/tree/main/notebook"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
@@ -261,7 +261,7 @@ const thebe_selector_output = ".output, .cell_output"
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/yamada-kd/introduction-to-artificial-intelligence/blob/main/notebook/pytorch_02.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/caramelazuki/introduction-to-artificial-intelligence/blob/main/notebook/pytorch_02.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -501,7 +501,7 @@ const thebe_selector_output = ".output, .cell_output"
 <h2><span class="section-number">7.2. </span>MLP の実装<a class="headerlink" href="#mlp" title="Permalink to this headline">¶</a></h2>
 <p>この節では MLP を実装します．MLP を実装することに加えて，どのように学習を進めるとより良い人工知能を構築できるのかについて紹介します．</p>
 <p>MLP は以下のような図で表現されることがあります．これは4層からなる MLP です．入力層1層，中間層2層，出力層1層からなります．入力層とは入力値のことです．この場合入力値のベクトルの次元は3次元です．それを最初の中間層の計算にて5次元ベクトルに変換します．さらに，その5次元のベクトルをもう一度別の5次元のベクトルに変換します．最終的にその5次元のベクトルを3次元のベクトルに変換したものを出力値とします．中間層の値を計算する際には普通，活性化関数という非線形関数を利用した計算も行います．中間層の値を非線形関数への入力として，その結果得られる出力値を中間層の値とします．そのような非線形関数を加えることでニューラルネットワークは非線形関数の近似能力を獲得します．</p>
-<a class="reference internal image-reference" href="https://github.com/yamada-kd/introduction-to-artificial-intelligence/blob/main/image/mlp_01.svg?raw=1"><img alt="https://github.com/yamada-kd/introduction-to-artificial-intelligence/blob/main/image/mlp_01.svg?raw=1" src="https://github.com/yamada-kd/introduction-to-artificial-intelligence/blob/main/image/mlp_01.svg?raw=1" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="https://github.com/caramelazuki/introduction-to-artificial-intelligence/blob/main/image/mlp_01.svg?raw=1"><img alt="https://github.com/caramelazuki/introduction-to-artificial-intelligence/blob/main/image/mlp_01.svg?raw=1" src="https://github.com/caramelazuki/introduction-to-artificial-intelligence/blob/main/image/mlp_01.svg?raw=1" style="width: 100%;" /></a>
 <div class="section" id="id4">
 <h3><span class="section-number">7.2.1. </span>簡単な MLP の実装<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>実際に MNIST を処理する MLP を実装する前に，とても簡単なデータを処理するための MLP を実装します．ここでは，以下のようなデータを利用します．これが学習セットです．ここでは MLP の実装の方法を紹介するだけなのでバリデーションセットもテストセットも使用しません．</p>

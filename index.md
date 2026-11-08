@@ -6,7 +6,7 @@
 [![made-with-scikit-learn](https://img.shields.io/badge/Made%20with-scikit--learn-1f425f.svg)](https://scikit-learn.org/)
 [![made-with-pytorch](https://img.shields.io/badge/Made%20with-PyTorch-1f425f.svg)](https://pytorch.org/)
 ![Colab](https://colab.research.google.com/assets/colab-badge.svg)
-%[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yamada-kd/introduction-to-artificial-intelligence/blob/main)
+%[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/caramelazuki/introduction-to-artificial-intelligence/blob/main)
 ```
 
 ## この教材について
